@@ -1,0 +1,75 @@
+<meta charset="UTF-8">
+
+<!-- <script>
+    //O que será exibido na tela com a instrução mostra(resultado)
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function a(texto) {
+
+        return "(" + texto + ")";
+    }
+
+    function b(texto) {
+
+        return "@" + texto + "@";
+    }
+
+    function c(nome, sobrenome) {
+
+        return b(nome + " " + a(sobrenome));
+
+    }
+
+    var resultado = c("Flávio", "Almeida");
+
+    mostra(resultado);
+
+</script> -->
+
+
+
+<meta charset="UTF-8">
+
+<script>
+   
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+    //foi corrigido o codigo add parseInt
+
+    var convidados = parseInt(prompt("Número de convidados"));
+    var vips = parseInt(prompt("Número de convidados VIP's"));
+
+    var total = convidados + vips;
+
+    mostra("O total de convidados é " + total);
+
+
+
+
+
+/*    
+A variável a recebe o número 10 retornado por parseInt. Veja que a função esta recebendo a string "10". Ela converte a string em um número.
+
+A variável b recebe NaN (not a number) retornado por parseInt. Isso é verdade, porque parseInt está recebendo a string "Calopsita". É impossível converter esse texto para número, pois não há uma representação numérica para ele, como foi o caso de a.
+
+A variável c recebe 10, número, retornado por parseInt. Quando parseInt recebe um número e não uma string, ele devolve o mesmo número, ou seja, não realiza conversão alguma. Não dá erro, funciona.
+
+var a = parseInt("10");
+var b = parseInt("Calopsita");
+var c = parseInt(10);*/
+
+</script>

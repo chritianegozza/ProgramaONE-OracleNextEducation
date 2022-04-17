@@ -1,0 +1,157 @@
+<!-- versão com erro
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function sorteia() {
+
+        return Math.round(Math.random() * 100);
+    }   
+
+    var numeroPensado = sorteia();
+
+    var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+
+    if(chute == numeroPensado) {
+
+        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+    } else {
+
+        mostra("Já era, você errou!");
+        mostra("Já era, você errou!");
+        mostra("Já era, você errou!");
+        mostra("Já era, você errou!");
+        mostra("Já era, você errou!");
+        mostra("Já era, você errou!");
+        mostra("Já era, você errou!");
+        mostra("Já era, você errou!");
+        mostra("Já era, você errou!");
+        mostra("Já era, você errou!");
+    }
+</script> -->
+
+<!-- versão corrigida 
+<meta charset="UTF-8">
+<script>
+
+    // funções pulaLinha, mostra e sorteia omitidas
+
+    var numeroPensado = sorteia();
+
+    var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+
+    if(chute == numeroPensado) {
+
+        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+    } else {
+
+        var contador = 1;
+
+        while( contador <= 10 ) {
+
+            mostra("Já era, você errou!");
+            contador = contador + 1;
+        }
+
+    }
+</script> -->
+
+
+
+
+<!-- Usando a instrução while imprima todos os números pares de 1 a 100 e ao final imprima a palavra FIM -->
+
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+        var contador = 2;
+
+        while( contador <= 100 ) {
+
+            mostra(contador);
+            contador = contador + 2; // incrementa de dois em dois
+        }
+     //O contador começa valendo 2 e a cada repetição ele é incrementado com mais dois.
+    
+    mostra("FIM")
+</script>
+
+<!-- Todos os números entre 30 a 40, exceto 33 e 37!
+
+    <meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var contador = 30;
+
+    while(contador <= 40) {
+
+        if( contador == 33 ) {
+        contador = contador + 1;
+        }
+        else if(contador == 37) {    
+            contador = contador + 1;
+        }
+        else {
+        mostra(contador);
+        contador = contador + 1; 
+        }
+      }
+
+    mostra("FIM");
+
+</script>
+ -->
+
+ <!-- Todos os números de 20 a 0.
+PRÓXIMA ATIVIDADE
+
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var contador = 20;
+
+    while( contador >= 0) {
+
+      mostra(contador);
+      contador = contador - 1;
+    }
+
+    mostra("FIM");
+</script>
+
+-->
