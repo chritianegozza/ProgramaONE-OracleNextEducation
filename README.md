@@ -12,8 +12,8 @@
 ***************************************************************************
  Programa ONE - Oracle Next Education
  
- Treinamento de Lógica de programação. feito alguns exercicios durante as 
- aulas do curso da Alura 
+ Treinamento de Lógica de programação 1 e 2, foram realizados alguns exercicios durante as 
+ aulas do curso da Alura para treinar o que eu aprendi. 
 
 ************************************************************************
 Linguagem
