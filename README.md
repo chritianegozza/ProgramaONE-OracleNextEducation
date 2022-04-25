@@ -9,10 +9,14 @@
 ![image](https://user-images.githubusercontent.com/72118415/163906844-eed379d4-4054-4a02-b725-40188a3b4c63.png)
 
 
+![image](https://user-images.githubusercontent.com/72118415/165011926-31e522b2-cba8-408d-a0b9-1e83ad14fe7d.png)
+
+
 ***************************************************************************
  Programa ONE - Oracle Next Education
  
- Treinamento de Lógica de programação 1 e 2, foram realizados alguns exercicios durante as 
+ Treinamento de Lógica de programação 1 e 2, além disso aprendemos a usar o canvas para fazer dentro na paginas,  
+ foram realizados alguns exercicios durante as 
  aulas do curso da Alura para treinar o que eu aprendi. 
 
 ************************************************************************
