@@ -1,5 +1,7 @@
-# ProgramaONE-OracleNextEducation
+# 🧩 Programa ONE Oracle Next Education
 ****************************************************************************
+ 👁️ Imagens dos programas 
+
 
 ![image](https://user-images.githubusercontent.com/72118415/163697998-c14e8302-3089-4ae2-b9b8-d8408a16f0ae.png)
 
@@ -13,16 +15,17 @@
 
 
 ***************************************************************************
- Programa ONE - Oracle Next Education
+🌱  Programa ONE - Oracle Next Education
  
- Treinamento de Lógica de programação 1 e 2, além disso aprendemos a usar o canvas para fazer dentro na paginas,  
- foram realizados alguns exercicios durante as 
- aulas do curso da Alura para treinar o que eu aprendi. 
+ Treinamento de Lógica de programação 1 e 2, além disso aprendemos a usar o canvas para fazer dentro das paginas,  
+ também foram realizados alguns exercicios durante as aulas do curso da Alura para treinar o que eu aprendi. 
 
 ************************************************************************
-Linguagem
+👩🏻‍💻 Linguagem
 
-Javascript
+✅ Javascript
 
-HTML
+✅ HTML
+
 ***********************************************************************
+🤝🏼 Caso precise de ajuda em algo, pode conta comigo. 🚀🚀
