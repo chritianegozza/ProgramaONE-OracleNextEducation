@@ -17,8 +17,10 @@
 ***************************************************************************
 🌱  Programa ONE - Oracle Next Education
  
- Treinamento de Lógica de programação 1 e 2, além disso aprendemos a usar o canvas para fazer dentro das paginas,  
- também foram realizados alguns exercicios durante as aulas do curso da Alura para treinar o que eu aprendi. 
+ Treinamento de Lógica de programação 1 e 2, além disso aprendemos a usar o canvas para fazer um retangulo dentro 
+ das paginas para que pode fazer um gráfico, desenhos, Barra, até casinhas podemos fazer, bandeira, ele usa o javascript 
+ para você criar os desenhos com códigos, conseguimos adicionar cores, formas, e elementos.
+ Também foram realizados alguns exercicios durante as aulas do curso da Alura para treinar o que eu aprendi. 
 
 ************************************************************************
 👩🏻‍💻 Linguagem
