@@ -1,0 +1,78 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(0, 0, 600, 400);
+
+    function desenhaCirculo(x, y, raio) {
+         pincel.fillStyle = 'blue';
+         pincel.beginPath();
+         pincel.arc(x, y, raio, 0, 2 * Math.PI);
+         pincel.fill();
+    }
+
+    function limpaTela() {
+        pincel.clearRect(0, 0, 600, 400);
+    }
+
+    var x = 20;
+    function atualizaTela(){
+
+        limpaTela();
+        desenhaCirculo(x, 20, 10);
+        //desenhaCirculo(x, 60, 10); vai aparecer em baixo
+        x++;
+    }
+  
+    setInterval(atualizaTela, 10);
+        
+        //desenhaCirculo(x, 20, 10);
+       //desenhaCirculo(80, 80, 20)
+
+</script>
+
+<!-- 
+    O método setInterval() chama atualizaTela();
+Este, quando executado, faz o limpaTela(), 
+desenhaCirculo() e incrementa o valor de x;
+O setInterval() aguarda 20 milisegundos, 
+para repetir o processo, sempre incrementando
+ o valor de x, o que faz com que nossa esfera "se mova" para a direita.
+ -->
+
+
+
+
+
+
+
+<!--Para ser aprovada em um teste de emprego,
+ uma pessoa foi submetida ao seguinte teste de lógica:  -->
+
+<script>
+a = 100
+b = 'palavra'
+c = -50
+
+if (b.length > 7) {
+    console.log(b)
+} else {
+    console.log(a + c)
+} 
+ </script>
+
+
+
+ <!-- 
+    No Javascript podemos incluir um temporizador para 
+    executar algumas funções. Nesta aula, utilizamos a função 
+    setInterval().
+   
+
+     A função setInterval requer dois parâmetros: o código ou 
+     função a ser processado e o tempo em milissegundos entre os
+      eventos do temporizador.
+  -->
